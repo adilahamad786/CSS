@@ -1,0 +1,24 @@
+.box1 {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    background-origin: border-box;
+
+    border: 50px solid;
+
+    border-image-source: url(border.jpg);
+
+    border-image-slice: 70;
+    
+    border-image-width: 100px;
+    
+    /* go to border outside */
+    border-image-outset: 10px;
+    
+    /* border-image-repeat: stretch; */
+    border-image-repeat: round;
+    /* border-image-repeat: repeat; */
+
+    /* Combine use below */
+    border-image: url(border.jpg) 70px / 100px / 10px round;
+}
