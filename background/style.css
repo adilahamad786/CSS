@@ -1,0 +1,55 @@
+.background {
+    border: 50px dotted red;
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+    height: 500px;
+}
+
+.background {
+    background-image: url("factwithadil.png"),url("background.jpg");
+
+    background-size: 200px, 400px;
+    /* NOTE: for upper line first_image_size = 50px and second_image_size = 200px */
+    /* Overwrite by background-position propertie */
+    /* background-size: cover; */ 
+    /* background-size: contain; */
+    
+    background-position: calc(250px - 10px) calc(250px - 0%), 50px 200px;
+    /* background-position: auto calc(250px - 0%); */
+    /* background-position: 250px 250px; */
+    /* background-position: 20% 40%; */
+    /* background-position: left center; */
+
+    background-repeat: no-repeat;
+    /* NOTE: below line not work if we apply already apply background-position properties */
+    /* background-repeat: round; */
+    /* background-repeat: space; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-repeat: repeat; */
+
+    background-attachment: scroll;
+    /* background-attachment:fixed; */
+
+    background-color: green;
+    /* background-color: transparent; */
+
+    /* below propertie work on background image */
+    background-origin: border-box;
+    /* background-origin: content-box; */
+    /* background-origin: padding-box; */
+
+    /* below propertie work on background color */
+    background-clip:border-box ;
+    /* background-clip:content-box ; */
+    /* background-clip:padding-box ; */
+
+    /* below propertie work on background image make scrollable or fixed */
+    /* background-attachment: scroll; */
+    /* background-attachment: local; */
+    /* background-attachment: fixed; */
+
+
+    overflow: auto;
+}
