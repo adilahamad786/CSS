@@ -1,0 +1,20 @@
+.box {
+    background-color: blue;
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+body {
+    /* margin: 0px;
+    padding: 0px; */
+}
+
+#box1 {
+    margin-bottom: 20px;
+}
+
+#box2 {
+    /* margin collapse b/w box1, box2 and make 30px */
+    margin-top: 30px;
+}
