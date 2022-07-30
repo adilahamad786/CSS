@@ -3,6 +3,8 @@
     height: 300px;
     border: 3px solid black;
     display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .box {
@@ -27,5 +29,9 @@ body {
 #box2 {
     /* margin collapse b/w box1, box2 and make 30px */
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 30px;
+}
+
+h1 {
+    fontweight
 }

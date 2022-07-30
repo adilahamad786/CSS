@@ -1,0 +1,47 @@
+#text1 {
+    font-weight: regular;
+    font-size: 50px;
+    font-style:italic;
+    font-variant:small-caps;
+}
+
+.text {
+    width: 50%;
+    height: 300px;
+    border: 2px solid red;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    resize: both;
+}
+
+ul {
+    list-style-type:number;
+}
+
+ol {
+    /* list-style-image: url("../factwithadil.png"); */
+}
+
+li {
+    border: 2px solid red;
+    list-style-position: inside;
+}
+
+table {
+    border: 1px solid black;
+    /* border-collapse:collapse; */
+    border-spacing: 5px;
+    empty-cells: hide;
+    width: 500px;
+    table-layout: fixed;
+}
+
+th {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+td {
+    border: 1px solid black;
+    margin: 10px;
+}
