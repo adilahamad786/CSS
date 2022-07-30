@@ -45,3 +45,20 @@ td {
     border: 1px solid black;
     margin: 10px;
 }
+
+.pesudoElement::before {
+    content: url(../factwithadil.png);
+}
+
+img {
+    width: 100px;
+}
+
+.pesudoElement::after {
+    content: "This is dynamically generate text from CSS.";
+}
+
+::selection {
+    color: red;
+    background-color: black;
+}
