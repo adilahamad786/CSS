@@ -169,3 +169,44 @@ img {
     transform: rotate(50deg);
 }
 
+/* // First Way */
+@keyframes animaiton_name1 {
+    from { background-color: red; }
+    to { background-color: green; }
+}
+
+/* // Second Way */
+@keyframes animaiton_name2 {
+    0% { background-color: red; }
+    50% { background-color: green; transform: rotate(90deg);}
+    100% { background-color: yellow; }
+}
+
+#animation {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 100px;
+    animation-name: animaiton_name2;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+}
+
+
+.general {
+    column-count: 3;
+    column-gap: 20px;
+    column-rule: 2px solid red;
+    padding: 10px;
+    column-width: 250px;
+}
+
+.general h1 {
+    column-span: all;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
